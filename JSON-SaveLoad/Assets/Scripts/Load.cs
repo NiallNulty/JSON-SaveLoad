@@ -33,7 +33,6 @@ public class Load : MonoBehaviour
         }
     }
 
-
     private string GetFilePath(string fileName)
     {
         return Environment.ExpandEnvironmentVariables("%USERPROFILE%\\") + fileName;
